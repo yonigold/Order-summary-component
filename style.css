@@ -1,0 +1,103 @@
+:root {
+  --primary-color: #e0e8ff;
+  --primary-color2: #3829e0;
+  --very-pale-blue: #f5f7ff;
+  --Desaturated-blue: #7280a7;
+  --dark-blue: #1f2f56;
+  --font: "Red Hat Display";
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+.card {
+  height: 37rem;
+  font-family: var(--font);
+  margin: auto;
+  margin-top: 4rem;
+  border: none;
+}
+
+.card-title {
+  color: var(--dark-blue);
+  font-size: 26px;
+  margin-top: 1rem;
+  font-weight: 900;
+}
+
+.card-text {
+  color: var(--Desaturated-blue);
+  margin-top: 1rem;
+}
+
+.info-contnet {
+  display: flex;
+  flex-direction: row;
+  background: var(--very-pale-blue);
+  justify-content: space-between;
+  align-items: center;
+  height: 5.2rem;
+  text-align: center;
+  margin-top: 2rem;
+  border-radius: 20px;
+}
+
+.info-contnet .music-logo {
+  height: 2.6rem;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.prices {
+  font-size: 12px;
+  color: var(--dark-blue);
+  font-weight: bold;
+  margin-left: -95px;
+}
+
+.prices2 {
+  font-size: 12px;
+  color: var(--Desaturated-blue);
+  font-weight: normal;
+}
+
+.change a {
+  font-size: 12px;
+  color: var(--primary-color2);
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.change a:hover {
+  opacity: 0.3;
+}
+
+.btn {
+  width: 90%;
+  margin-top: 2rem;
+  background-color: var(--primary-color2);
+  border: none;
+}
+
+.btn:hover {
+  opacity: 0.3;
+}
+
+.buttons .cancel {
+  margin-top: 0.7rem;
+}
+
+.buttons .cancel a {
+  color: var(--Desaturated-blue);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+}
